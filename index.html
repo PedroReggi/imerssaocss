@@ -15,7 +15,7 @@
 <body>
     <header>
         <nav class="menu">
-            <ul>
+            <ul class="container">
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#portfolio">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
@@ -28,37 +28,98 @@
         </div>
 
     </header>
-    
+
+    <section class="sobre container">
+        <h2>Sobre</h2>
+
+        <figure class="avatar">
+            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGgC96eQkKsgA/profile-displayphoto-shrink_200_200/0?e=1595462400&v=beta&t=1mPqNxqS_6bEtmaE0sLIWC2BL4r5pyOCSFfKMRGfI5k" alt="Pedro Reggi">
+        </figure>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, eligendi. Minima ad ratione dicta a magni dolorem cumque, cum quam et ducimus odio magnam qui voluptatem officia quae eius sequi?
+        </p>
+
+        <p>
+            Hic cum voluptates obcaecati doloremque odio facilis itaque animi ad, quisquam dolore fuga iure quod, earum ullam laborum nemo aspernatur nostrum et. Sapiente, accusantium voluptatum doloremque nisi tenetur ut soluta.
+        </p>
+
+        <p>
+            Quos velit delectus impedit itaque unde inventore officia optio nulla nam quas nostrum veritatis, aliquid saepe sunt soluta laborum voluptatibus iure perferendis quod cum sit laudantium architecto autem? Tenetur, quod?
+        </p>
+
+        <p>
+            Explicabo eligendi reprehenderit impedit labore quas animi quod, enim veniam distinctio? Non suscipit iusto dolores ratione asperiores consequatur tenetur nostrum quidem veniam aspernatur doloremque nemo exercitationem illo, sunt ipsam tempora.
+        </p>
+
+        <p>
+            Este site foi contruído durante a <a href="https://www.alura.com.br/imaersao-css">Imersão CSS da Alura</a>
+        </p>
+    </section>
+
     <div class="botaoTopo">
         <a href="#"><i class="fas fa-arrow-circle-up"></i></a>
     </div>
 
-    <section class="portfolio" id="portfolio">
+    <section class="portfolio container" id="portfolio">
         <h2>Projetos</h2>
 
         <div class="grid">
-            <figure>
-                <img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg"
-                    alt="eCommerce">
-                <figcaption>eCommerce</figcaption>
-            </figure>
-            <figure>
-                <img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
-                <figcaption>Mobile</figcaption>
-            </figure>
-            <figure>
-                <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
-                <figcaption>Web design</figcaption>
-            </figure>
-            <figure>
-                <img class="img-portfolio" src="./img/projpessoais-creditos-hal-gatewood-unsplash.jpg"
+
+
+            <div class="flip-card">
+                <div class="card">
+                    <figure class="card-front">
+                        <img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg"
+                            alt="eCommerce">
+                        <figcaption>eCommerce</figcaption>
+                    </figure>
+                    <div class="card-back">
+                        Sou a parte de trás :)
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="card">
+                    <figure class="card-front">
+                        <img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
+                        <figcaption>Mobile</figcaption>
+                    </figure>
+                    <div class="card-back">
+                        Sou a parte de trás :)
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="card">
+                    <figure class="card-front">
+                        <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
+                        <figcaption>Web design</figcaption>
+                    </figure>
+                    <div class="card-back">
+                        Sou a parte de trás :)
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="card">
+                    <figure class="card-front">
+                        <img class="img-portfolio" src="./img/projpessoais-creditos-hal-gatewood-unsplash.jpg"
                     alt="Projetos pessoais">
-                <figcaption>Projetos pessoais</figcaption>
-            </figure>
+                        <figcaption>Projetos pessoais</figcaption>
+                    </figure>
+                    <div class="card-back">
+                        Sou a parte de trás :)
+                    </div>
+                </div>
+            </div>
         </div>
 
     </section>
-    <section class="contato" id="contato">
+    <section class="contato container" id="contato">
         <h2>Contato</h2>
         <div class="grid icons">
             <a target="_blank" href="https://github.com/PedroReggi">
@@ -76,7 +137,7 @@
         </div>
     </section>
 
-    
+
 </body>
 
 </html>
